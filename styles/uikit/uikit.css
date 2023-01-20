@@ -9,7 +9,7 @@
 html {
   /* 1 */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 16px;
+  font-size: 18px;
   font-weight: normal;
   line-height: 1.5;
   /* 2 */
@@ -31,14 +31,14 @@ body {
  */
 a,
 .uk-link {
-  color: #1e87f0;
+  color: #fbae17;
   text-decoration: none;
   cursor: pointer;
 }
 a:hover,
 .uk-link:hover,
 .uk-link-toggle:hover .uk-link {
-  color: #0f6ecd;
+  color: #fbae17;
   text-decoration: underline;
 }
 /* Text-level semantics
@@ -218,7 +218,7 @@ h6,
 .uk-heading-xlarge,
 .uk-heading-2xlarge {
   margin: 0 0 20px 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Holtwood One SC', serif;
   font-weight: normal;
   color: #333;
   text-transform: none;
@@ -248,7 +248,7 @@ h6,
  */
 h1,
 .uk-h1 {
-  font-size: 2.23125rem;
+  font-size: 2.55rem;
   line-height: 1.2;
 }
 h2,
@@ -258,7 +258,7 @@ h2,
 }
 h3,
 .uk-h3 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 1.4;
 }
 h4,
@@ -268,7 +268,7 @@ h4,
 }
 h5,
 .uk-h5 {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.4;
 }
 h6,
@@ -280,7 +280,7 @@ h6,
 @media (min-width: 960px) {
   h1,
   .uk-h1 {
-    font-size: 2.625rem;
+    font-size: 3rem;
   }
   h2,
   .uk-h2 {
@@ -463,7 +463,7 @@ a.uk-link-heading,
 a.uk-link-heading:hover,
 .uk-link-heading a:hover,
 .uk-link-toggle:hover .uk-link-heading {
-  color: #1e87f0;
+  color: #fbae17;
   text-decoration: none;
 }
 /* Reset
@@ -772,7 +772,7 @@ a.uk-link-reset,
   color: #333 !important;
 }
 .uk-list-primary > ::before {
-  color: #1e87f0 !important;
+  color: #fbae17 !important;
 }
 .uk-list-secondary > ::before {
   color: #222 !important;
@@ -907,7 +907,7 @@ a.uk-link-reset,
   text-align: left;
   vertical-align: bottom;
   /* 1 */
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   color: #666;
 }
@@ -1633,13 +1633,13 @@ select.uk-form-width-xsmall {
 .uk-radio:checked,
 .uk-checkbox:checked,
 .uk-checkbox:indeterminate {
-  background-color: #1e87f0;
+  background-color: #fbae17;
 }
 /* Focus */
 .uk-radio:checked:focus,
 .uk-checkbox:checked:focus,
 .uk-checkbox:indeterminate:focus {
-  background-color: #0e6dcd;
+  background-color: #db9204;
 }
 /*
  * Icons
@@ -1686,7 +1686,7 @@ select.uk-form-width-xsmall {
   /* 3 */
   padding: 0;
   /* 4 */
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 1.4;
 }
 /* Custom controls
@@ -1861,7 +1861,7 @@ select.uk-form-width-xsmall {
   box-sizing: border-box;
   padding: 0 30px;
   vertical-align: middle;
-  font-size: 16px;
+  font-size: 18px;
   /* 8 */
   line-height: 40px;
   /* 9 */
@@ -1909,18 +1909,18 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-button-primary {
-  background-color: #1e87f0;
+  background-color: #fbae17;
   color: #fff;
 }
 /* Hover */
 .uk-button-primary:hover {
-  background-color: #0f7ae5;
+  background-color: #f4a304;
   color: #fff;
 }
 /* OnClick + Active */
 .uk-button-primary:active,
 .uk-button-primary.uk-active {
-  background-color: #0e6dcd;
+  background-color: #db9204;
   color: #fff;
 }
 /*
@@ -2083,11 +2083,11 @@ select.uk-form-width-xsmall {
  *    https://bugzilla.mozilla.org/show_bug.cgi?id=662351
  */
 .uk-progress::-webkit-progress-value {
-  background-color: #1e87f0;
+  background-color: #fbae17;
   transition: width 0.6s ease;
 }
 .uk-progress::-moz-progress-bar {
-  background-color: #1e87f0;
+  background-color: #fbae17;
   /* 1 */
   transition: width 0.6s ease;
 }
@@ -2179,7 +2179,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-section-primary {
-  background: #1e87f0;
+  background: #fbae17;
 }
 /*
  * Secondary
@@ -2437,7 +2437,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-tile-primary {
-  background-color: #1e87f0;
+  background-color: #fbae17;
 }
 /*
  * Secondary
@@ -2495,7 +2495,7 @@ select.uk-form-width-xsmall {
 /* Title
  ========================================================================== */
 .uk-card-title {
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 1.4;
 }
 /* Badge
@@ -2516,7 +2516,7 @@ select.uk-form-width-xsmall {
   height: 22px;
   padding: 0 10px;
   /* 3 */
-  background: #1e87f0;
+  background: #fbae17;
   color: #fff;
   font-size: 0.875rem;
   /* 4 */
@@ -2556,14 +2556,14 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-card-primary {
-  background-color: #1e87f0;
+  background-color: #fbae17;
   color: #fff;
 }
 .uk-card-primary .uk-card-title {
   color: #fff;
 }
 .uk-card-primary.uk-card-hover:hover {
-  background-color: #0f7ae5;
+  background-color: #f4a304;
 }
 /*
  * Secondary
@@ -2741,8 +2741,8 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-alert-primary {
-  background: #d8eafc;
-  color: #1e87f0;
+  background: #fef1d8;
+  color: #fbae17;
 }
 /*
  * Success
@@ -2798,7 +2798,7 @@ select.uk-form-width-xsmall {
   border-radius: 500px;
   vertical-align: middle;
   /* 1 */
-  background: #1e87f0;
+  background: #fbae17;
   color: #fff !important;
   font-size: 11px;
   /* 2 */
@@ -2819,7 +2819,7 @@ select.uk-form-width-xsmall {
 .uk-label {
   display: inline-block;
   padding: 0 10px;
-  background: #1e87f0;
+  background: #fbae17;
   line-height: 1.5;
   font-size: 0.875rem;
   color: #fff;
@@ -2897,13 +2897,13 @@ select.uk-form-width-xsmall {
 /* Title
  ========================================================================== */
 .uk-article-title {
-  font-size: 2.23125rem;
+  font-size: 2.55rem;
   line-height: 1.2;
 }
 /* Tablet landscape and bigger */
 @media (min-width: 960px) {
   .uk-article-title {
-    font-size: 2.625rem;
+    font-size: 3rem;
   }
 }
 /* Meta
@@ -3134,7 +3134,7 @@ select.uk-form-width-xsmall {
 .uk-search-navbar .uk-search-input {
   height: 40px;
   background: transparent;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 /* Focus */
 /*
@@ -3160,7 +3160,7 @@ select.uk-form-width-xsmall {
 .uk-search-large .uk-search-input {
   height: 80px;
   background: transparent;
-  font-size: 2.625rem;
+  font-size: 3rem;
 }
 /* Focus */
 /*
@@ -4054,7 +4054,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-notification-message-primary {
-  color: #1e87f0;
+  color: #fbae17;
 }
 /*
  * Success
@@ -4645,7 +4645,7 @@ ul.uk-nav-sub {
 /* Default modifier
  ========================================================================== */
 .uk-nav-default {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
 }
 /*
@@ -4684,7 +4684,7 @@ ul.uk-nav-sub {
  * Sublists
  */
 .uk-nav-default .uk-nav-sub {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
 }
 .uk-nav-default .uk-nav-sub a {
@@ -4699,7 +4699,7 @@ ul.uk-nav-sub {
 /* Primary modifier
  ========================================================================== */
 .uk-nav-primary {
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 1.5;
 }
 /*
@@ -4753,7 +4753,7 @@ ul.uk-nav-sub {
 /* Secondary modifier
  ========================================================================== */
 .uk-nav-secondary {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
 }
 /*
@@ -4963,7 +4963,7 @@ ul.uk-nav-sub {
   box-sizing: border-box;
   min-height: 80px;
   /* 4 */
-  font-size: 16px;
+  font-size: 18px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 5 */
   text-decoration: none;
@@ -5002,7 +5002,7 @@ ul.uk-nav-sub {
 /* Item
  ========================================================================== */
 .uk-navbar-item {
-  padding: 0 15px;
+  padding: 0 0;
   color: #666;
 }
 /*
@@ -5014,7 +5014,7 @@ ul.uk-nav-sub {
 /* Toggle
  ========================================================================== */
 .uk-navbar-toggle {
-  padding: 0 15px;
+  padding: 0 0;
   color: #999;
 }
 .uk-navbar-toggle:hover,
@@ -5327,7 +5327,7 @@ ul.uk-nav-sub {
 }
 /* Active */
 .uk-subnav-pill > .uk-active > a {
-  background-color: #1e87f0;
+  background-color: #fbae17;
   color: #fff;
 }
 /* Disabled
@@ -6885,7 +6885,7 @@ ul.uk-nav-sub {
 /* Style modifiers
  ========================================================================== */
 .uk-text-lead {
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 1.5;
   color: #333;
 }
@@ -6901,11 +6901,11 @@ ul.uk-nav-sub {
   line-height: 1.5;
 }
 .uk-text-large {
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 1.5;
 }
 .uk-text-default {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
 }
 /* Weight modifier
@@ -6955,7 +6955,7 @@ ul.uk-nav-sub {
   color: #333 !important;
 }
 .uk-text-primary {
-  color: #1e87f0 !important;
+  color: #fbae17 !important;
 }
 .uk-text-secondary {
   color: #222 !important;
@@ -6985,7 +6985,7 @@ ul.uk-nav-sub {
   /* 3 */
   display: inline-block;
   /* 4 */
-  background-color: #1e87f0;
+  background-color: #fbae17;
 }
 /* Alignment modifiers
  ========================================================================== */
@@ -7284,7 +7284,7 @@ iframe[data-uk-cover] {
   background-color: #f8f8f8;
 }
 .uk-background-primary {
-  background-color: #1e87f0;
+  background-color: #fbae17;
 }
 .uk-background-secondary {
   background-color: #222;
@@ -7894,7 +7894,7 @@ iframe[data-uk-cover] {
  */
 .uk-logo {
   /* 1 */
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   color: #333;
   /* 2 */
@@ -11883,5 +11883,39 @@ iframe[data-uk-cover] {
   h3 {
     page-break-after: avoid;
   }
+}
+@font-face {
+  font-family: 'Holtwood One SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/holtwoodonesc/v16/yYLx0hLR0P-3vMFSk1TCq3Txg5B3cQ.ttf) format('truetype');
+}
+h1,
+h2 {
+  font-family: 'Holtwood One SC', serif;
+  text-transform: uppercase;
+}
+h1 {
+  margin-top: 0;
+}
+.uk-h1 {
+  text-transform: uppercase;
+  margin-top: 0;
+}
+.uk-text-lead {
+  font-family: 'Holtwood One SC', serif;
+  text-transform: uppercase;
+}
+.uk-navbar-nav > li:last-child a {
+  padding-right: 0;
+}
+.uk-navbar-nav > li > a {
+  font-family: 'Holtwood One SC', serif;
+  text-transform: uppercase;
+}
+.uk-button {
+  font-family: 'Holtwood One SC', serif;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=uikit.css.map */
